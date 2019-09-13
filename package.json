@@ -20,6 +20,9 @@
   "author": "Mazzarolo Matteo",
   "license": "MIT",
   "homepage": "https://github.com/mmazzarolo/react-native-dialog",
+  "publishConfig": {
+    "registry" : "https://npm.pkg.github.com/@iswanj"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mmazzarolo/react-native-dialog"
