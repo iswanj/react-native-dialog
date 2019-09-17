@@ -2,14 +2,14 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Platform, StyleSheet, Text } from "react-native";
 
-export default class DialogDescription extends React.PureComponent {
+export default class DialogSubtitle extends React.PureComponent {
   static propTypes = {
     ...Text.propTypes,
     style: PropTypes.any,
     children: PropTypes.string.isRequired
   };
 
-  static displayName = "DialogDescription";
+  static displayName = "DialogSubtitle";
 
   render() {
     const { style, children, ...otherProps } = this.props;
@@ -27,17 +27,20 @@ const styles = StyleSheet.create({
       textAlign: "center",
       color: "black",
       fontSize: 13,
-      marginTop: 4
+      marginTop: 4,
+      fontWeight: "bold"
     },
     android: {
       color: "#33383D",
       fontSize: 16,
-      marginTop: 10
+      marginTop: 10,
+      fontWeight: "bold"
     },
     web: {
       color: "#33383D",
       fontSize: 16,
-      marginTop: 10
+      marginTop: 10,
+      fontWeight: "bold"
     }
   })
 });
