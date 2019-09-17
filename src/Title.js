@@ -27,14 +27,14 @@ const styles = StyleSheet.create({
       color: "black",
       textAlign: "center",
       fontSize: 18,
-      fontWeight: "600"
+      fontWeight: "700"
     },
     android: {
-      fontWeight: "500",
+      fontWeight: "700",
       fontSize: 18
     },
     web: {
-      fontWeight: "500",
+      fontWeight: "700",
       fontSize: 18
     }
   })
