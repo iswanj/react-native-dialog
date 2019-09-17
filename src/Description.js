@@ -6,7 +6,7 @@ export default class DialogDescription extends React.PureComponent {
   static propTypes = {
     ...Text.propTypes,
     style: PropTypes.any,
-    children: PropTypes.string.isRequired
+    children: PropTypes.any.isRequired
   };
 
   static displayName = "DialogDescription";
