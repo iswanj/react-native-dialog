@@ -158,10 +158,10 @@ const styles = StyleSheet.create({
   }),
   header: Platform.select({
     ios: {
-      margin: 18
+      margin: 10
     },
     android: {
-      margin: 12
+      margin: 0
     },
     web: {
       margin: 12
